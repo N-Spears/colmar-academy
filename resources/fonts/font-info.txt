@@ -1,0 +1,6 @@
+<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Montserrat:300,300i,400,400i,700|Overlock:900|Source+Sans+Pro:300i,400" rel="stylesheet">
+
+font-family: 'Berkshire Swash', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Overlock', cursive;
+font-family: 'Source Sans Pro', sans-serif;
