@@ -144,8 +144,10 @@ nav li a:active {
 }
 
 .banner-right {
+	display: flex;
 	padding-left: 2.5rem;
 	width: 423px;
+	flex-grow: 1;
 }
 
 .banner-right .byline {
@@ -227,6 +229,7 @@ nav li a:active {
 	display: flex;
 	flex-direction: column;
 	border-left: .5px solid #263248;
+	flex-grow: 1;
 }
 .info-sub a {
 	color: #7E8AA2;	
@@ -300,7 +303,7 @@ nav li a:active {
 	width: 90%;
 	display: flex;
 	justify-content: center;
-	flex-flow: wrap row;
+	flex-flow: row wrap;
 	
 }
 
@@ -484,6 +487,37 @@ footer li {
 
 /*mid-screens*/
  @media only screen and (min-width : 480px) and (max-width : 767px){
+		h1 {
+		font-family: 'Overlock', cursive;
+		font-size: 2rem;
+	}
+	
+	h2 {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.25rem;
+		font-weight: 600;
+		color: #000;
+	}
+	
+	.quote,
+	p,
+	a {
+		font-size: 1rem;
+		line-height: 1.25;
+	}
+	
+	nav li a {
+		font-size: 1rem;
+	}
+	
+	.info-sub:hover h2 {
+		font-size: 1.35rem;	
+	}
+	
+	.thesis-sub:hover h2 {
+		font-size: 1.35rem;	
+	}
+	
 	nav {
 		display: none;
 	}
@@ -687,7 +721,7 @@ footer li {
 	.exhibits .mobile {
 		display: block;
 		font-size: 2rem;
-		padding: 2rem 0:
+		padding-bottom: 2rem;
 	}
 	
 	.thesis-right {
