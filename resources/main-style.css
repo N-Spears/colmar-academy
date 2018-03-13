@@ -734,11 +734,7 @@ footer li {
 		overflow: hidden;
 	}
 	
-	.thesis-left video {
-		width: 100%;
-		height: auto;
-		display: block;
-	}
+	
 	
 	.thesis-left h2,
 	.thesis-left .quote {
