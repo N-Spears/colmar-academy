@@ -728,16 +728,7 @@ footer li {
 		display: none;
 	}
 	
-	.thesis-left {
-		max-width: 100%;
-		
-	}
 	
-	.thesis-left video {
-		width: 100%;
-		height: auto;
-		display: block;
-	}
 	
 	.thesis-left h2,
 	.thesis-left .quote {
